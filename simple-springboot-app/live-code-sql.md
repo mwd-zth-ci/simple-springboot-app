@@ -12,7 +12,7 @@ Write a SQL query to get the top 5 products with the highest total sales amount.
 products(id, name)
 order_items(id, product_id, quantity, price)
 
-Question 3:
+Question 3: Using https://onecompiler.com/mongodb/43edax9zc
 
 Assume you have a collection of users in MongoDB:
 

@@ -57,3 +57,43 @@ INSERT INTO order_items (product_id, quantity, price) VALUES
 (2, 2, 300.00),   -- Phone x2
 (4, 5, 150.00),   -- Monitor x5
 (6, 10, 20.00);   -- Mouse x10
+
+
+
+
+db.users.insertMany([
+  {
+    name: "Alice",
+    age: 25,
+    email: "alice@example.com",
+    active: true
+  },
+  {
+    name: "Bob",
+    age: 17,
+    email: "bob@example.com",
+    active: true
+  },
+  {
+    name: "Charlie",
+    age: 30,
+    email: "charlie@example.com",
+    active: false
+  },
+  {
+    name: "Daisy",
+    age: 20,
+    email: "daisy@example.com",
+    active: true
+  },
+  {
+    name: "Ethan",
+    age: 19,
+    email: "ethan@example.com",
+    active: true
+  }
+]);
+
+
+
+https://cuddly-train-5gv69v45gjg2pv6v-9002.app.github.dev/student
