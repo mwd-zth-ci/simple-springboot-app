@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Live code</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+  <h1>Hello World</h1>
+  <button id="btnClick">Click on me</button>
+  <p id="result"></p>
+
+  <script>
+    $(document).ready(function() {
+      $('#btnClick').click(function() {
+        $('#result').text('Clicked');
+      });
+    });
+  </script>
+
+</body>
+</html>
